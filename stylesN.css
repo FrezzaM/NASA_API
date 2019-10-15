@@ -5,14 +5,9 @@ body {
   color: #40514E;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  /* background-image: url("../images/bkd.png"); */
   background-image: linear-gradient(#213146, #EEF2F7);
   background-repeat: no-repeat;
   background-size: 100% auto;
-  /* -ms-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover; */
 }
 @media only screen and (max-width: 600px) {
   body {
@@ -32,7 +27,6 @@ h5 {
 }
 
 .container {
-  /* background-color: #E6ECE8; */
   margin-top: 1rem;
 }
 
@@ -42,16 +36,13 @@ h5 {
 
 .display {
   background-color: white;
-  /* height: 1000px; */
   padding: 5%;
   margin-bottom: 5px;
   text-align: center;
-  /* box-shadow: 3px 3px 6px grey; */
-  /* overflow-y: auto; */
 }
 
 .description {
-  /* background-color: grey; */
+
   text-align: left;
   padding-top: 2%;
   padding-left: 2%;
@@ -62,13 +53,11 @@ h5 {
 .carousel-control-next {
   filter: invert(100%);
   right: -60px;
-  /* align-items: flex-end; */
 }
 
 .carousel-control-prev {
   filter: invert(100%);
   left: -60px;
-  /* align-items: flex-end; */
 }
 
 .carousel-indicators {
