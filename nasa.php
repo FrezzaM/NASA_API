@@ -3,7 +3,7 @@
 $todaysDate = date("Y-m-d");
 $sevenDaysAgo = date('Y-m-d', strtotime('-6 days'));
 
-if (!$urlContents = @file_get_contents("https://api.nasa.gov/planetary/apod?start_date=".$sevenDaysAgo."&api_key=eTA0IfKg7oy8Cx41GHeAsA1fc6ep4t2nkyMBgisM")) {
+if (!$urlContents = @file_get_contents("https://api.nasa.gov/planetary/apod?start_date=".$sevenDaysAgo."&api_key=<<api key goes here>>")) {
       $error = error_get_last();
       // echo "HTTP request failed. Error was: " . $error['message'];
 } else {
